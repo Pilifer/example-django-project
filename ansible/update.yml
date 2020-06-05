@@ -9,7 +9,7 @@
   tasks:
   - name: update code
     git:
-      repo: 'https://github.com/pythonanywhere/example-django-project.git'
+      repo: 'https://github.com/filiplajszczak/example-django-project.git'
       dest: "{{ app_path }}"
       update: yes
   - name: update requirements
